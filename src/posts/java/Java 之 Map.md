@@ -1,6 +1,6 @@
 ---
 title: Java 之 Map
-icon: fab fa-java
+icon: fab fa-markdown
 order: 2
 category:
   - Java
@@ -14,7 +14,8 @@ tag:
 # Map
 
 - HashMap
-  - 最常见的实现，基于哈希表，提供高性能的查找、添加和删除操作。但它不保证元素顺序，也可能出现碰撞。
+  - 基于哈希表实现
+  - 不保证元素顺序
 
 - LinkedHashMap
   - 基于哈希表和链表实现
@@ -26,7 +27,8 @@ tag:
 
 - Hashtable
   - 基于哈希表的同步实现
-  - 线程安全但性能相对较低。适用于多线程环境。
+  - 性能相对较低
+  - 线程安全
 
 ```
 

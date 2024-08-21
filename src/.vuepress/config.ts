@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "路遥知Martin",
+  title: "路遥知马力",
   description: "技术博客，记录技术成长",
 
   theme,

@@ -28,25 +28,25 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "路虽远 行则将至 事虽难 做则必成",
   displayFooter: true,
   // 博客相关
   blog: {
     description: "后端开发",
     intro: "/intro.html",
     medias: {
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press/zh/get-started/",
-      },
-      ThemeHopeConfig: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press/zh/guide/intro/intro.html",
-      },
-      fontawesome: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://fontawesome.com/search?o=r&m=free",
-      },
+      // VuePressThemeHope: {
+      //   icon: '/logo.svg',
+      //   link: "https://theme-hope.vuejs.press/zh/get-started/",
+      // },
+      // ThemeHopeConfig: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://theme-hope.vuejs.press/zh/guide/intro/intro.html",
+      // },
+      // fontawesome: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://fontawesome.com/search?o=r&m=free",
+      // },
       
     },
   },
