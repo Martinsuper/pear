@@ -9,5 +9,11 @@ export default sidebar({
       prefix: "posts/java/",
       children: "structure",
     },
+    {
+      text: "其他",
+      icon: "book",
+      prefix: "posts/other/",
+      children: "structure",
+    },
   ],
 });
