@@ -40,3 +40,8 @@ tags:
 
 ![访问页面](/2024/gitpage3.png)
 参考文档：https://docs.github.com/zh/pages/quickstart
+
+## 多仓库部署
+::: warning 需要有自己的域名
+多仓库部署需要有自己的域名才可以部署
+:::
