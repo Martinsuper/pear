@@ -1,5 +1,5 @@
 ---
-title: GitPage部署教程-测试更新
+title: GitPage部署教程
 date: 2024-08-22
 order: 1
 tags: 
