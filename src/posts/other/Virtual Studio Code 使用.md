@@ -1,5 +1,5 @@
 ---
-title: Virtual Studio Code 使用·
+title: Virtual Studio Code 使用
 date: 2024-08-31 14:01:53
 order: 4
 tags: 
@@ -83,3 +83,6 @@ tags:
 
 ![20240831144248](https://raw.githubusercontent.com/superdly/image-bed/pear/2024/20240831144248.png)
 ![图床配置](https://raw.githubusercontent.com/superdly/image-bed/pear/2024/20240831150120.png)
+3. 使用
+
+通过快捷键 `Command` + `option` + `U` 触发上传图片。
