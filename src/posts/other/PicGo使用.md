@@ -18,4 +18,3 @@ tags:
 [参考文档地址](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A)
 
 ![GitHub 图床配置](https://raw.githubusercontent.com/superdly/image-bed/pear/2024/20240831142929.png)
-/Users/duanluyao1/Library/Application Support/picgo/data.json
