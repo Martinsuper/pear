@@ -13,7 +13,20 @@ export default sidebar({
       text: "其他",
       icon: "book",
       prefix: "posts/other/",
-      children: "structure",
+      children: [
+        {
+          text: "面试",
+          icon: "book",
+          prefix: "posts/java/",
+          children: "structure",
+        },
+        {
+          text: "Redis",
+          icon: "book",
+          prefix: "Redis/",
+          children: "structure",
+        }
+      ],
     },
   ],
 });
