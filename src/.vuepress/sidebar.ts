@@ -19,12 +19,6 @@ export default sidebar({
           icon: "book",
           prefix: "posts/java/",
           children: "structure",
-        },
-        {
-          text: "Redis",
-          icon: "book",
-          prefix: "Redis/",
-          children: "structure",
         }
       ],
     },

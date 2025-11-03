@@ -11,6 +11,16 @@ export default defineUserConfig({
 
   theme,
 
+  markdown: {
+    shiki: {
+      themes: {
+        light: "github-light",
+        dark: "github-dark",
+      },
+      langs: ["uml"],
+    },
+  },
+
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });

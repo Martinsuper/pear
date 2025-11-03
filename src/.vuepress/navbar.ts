@@ -2,6 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/posts/java/",
-  "/posts/other/",
+  "/Java/",
+  "/其他/",
 ]);
