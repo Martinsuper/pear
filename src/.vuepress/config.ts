@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 import theme from "./theme.js";
 
@@ -12,14 +13,8 @@ export default defineUserConfig({
   theme,
 
   markdown: {
-    shiki: {
-      themes: {
-        light: "github-light",
-        dark: "github-dark",
-      },
-      langs: ["uml"],
-    },
   },
+
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

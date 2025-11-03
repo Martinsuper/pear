@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 icon: fas fa-home
 title: 博客主页
 heroImage: cherry.png

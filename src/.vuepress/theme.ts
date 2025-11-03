@@ -5,23 +5,36 @@ import navbar from "./navbar.js";
 
 export default hopeTheme({
   hostname: "https://martinsuper.github.io",
-
   author: {
     name: "Mrtduan",
     url: "https://younote.top",
   },
 
   plugins: {
-    blog: true,
+    blog: {
+      excerptLength: 0,
+      filter: (page) => Boolean(page.filePathRelative) && !page.frontmatter.home,
+      article: "/article/",
+      category: "/category/",
+      tag: "/tag/",
+      star: "/star/",
+      timeline: "/timeline/",
+    },
     components: {
       components: ["Badge", "VPCard"],
+    },
+    comment: {
+      provider: "Giscus",
+      repoId: "YOUR_REPO_ID",
+      category: "Announcements",
+      categoryId: "YOUR_CATEGORY_ID",
     },
     icon: {
       assets: "/assets/icon/all.js"
     }
   },
 
-  logo: "cherry.png",
+  logo: "/cherry.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -38,24 +51,25 @@ export default hopeTheme({
   displayFooter: true,
   // 博客相关
   blog: {
+    name: "Mrtduan",
+    avatar: "/cherry.png",
     description: "后端开发",
     intro: "/intro.html",
     medias: {
-      // VuePressThemeHope: {
-      //   icon: '/logo.svg',
-      //   link: "https://theme-hope.vuejs.press/zh/get-started/",
-      // },
-      // ThemeHopeConfig: {
-      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-      //   link: "https://theme-hope.vuejs.press/zh/guide/intro/intro.html",
-      // },
-      // fontawesome: {
-      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-      //   link: "https://fontawesome.com/search?o=r&m=free",
-      // },
-      
+      // GitHub: "https://github.com/YOUR_GITHUB_USERNAME",
+      // Gitee: "https://gitee.com/YOUR_GITEE_USERNAME",
+      // Email: "mailto:your-email@example.com",
     },
   },
+
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+
+  // pure: true, // 启用纯净模式
+  darkmode: "switch",
+
+  fullscreen: true,
+  
+  favicon: "/favicon.ico",
 
   // 加密配置
   encrypt: {
