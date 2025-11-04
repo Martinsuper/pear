@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://martinsuper.github.io/sitemap.xml
+Sitemap: https://pear.younote.top/sitemap.xml
