@@ -5,4 +5,5 @@ export default navbar([
   "/Java/",
   "/其他/",
   "/面试/",
+  "/随笔/",
 ]);
