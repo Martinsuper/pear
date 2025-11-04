@@ -6,7 +6,7 @@ import navbar from "./navbar.js";
 export default hopeTheme({
   hostname: "https://martinsuper.github.io",
   author: {
-    name: "Mrtduan",
+    name: "mrtduan",
     url: "https://younote.top",
   },
 
@@ -51,9 +51,9 @@ export default hopeTheme({
   displayFooter: true,
   // 博客相关
   blog: {
-    name: "Mrtduan",
+    name: "cherry",
     avatar: "/cherry.png",
-    description: "后端开发",
+    description: "路虽远 行则将至 事虽难 做则必成",
     intro: "/intro.html",
     medias: {
       // GitHub: "https://github.com/YOUR_GITHUB_USERNAME",
@@ -64,12 +64,12 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  // pure: true, // 启用纯净模式
+  pure: true, // 启用纯净模式
   darkmode: "switch",
 
   fullscreen: true,
   
-  favicon: "/favicon.ico",
+  favicon: "/cherry.png",
 
   // 加密配置
   encrypt: {

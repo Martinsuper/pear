@@ -19,5 +19,9 @@
     "vue": "^3.5.22",
     "vuepress": "2.0.0-rc.24",
     "vuepress-theme-hope": "2.0.0-rc.98"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.0.0",
+    "@vueuse/shared": "^14.0.0"
   }
 }

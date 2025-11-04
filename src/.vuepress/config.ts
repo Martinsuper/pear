@@ -1,5 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 import theme from "./theme.js";
 
