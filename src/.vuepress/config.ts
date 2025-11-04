@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { viteBundler } from "@vuepress/bundler-vite";
 
 import theme from "./theme.js";
 
@@ -14,6 +15,17 @@ export default defineUserConfig({
   markdown: {
   },
 
+  bundler: viteBundler({
+    viteOptions: {
+      css: {
+        preprocessorOptions: {
+          scss: {
+            charset: false
+          }
+        }
+      }
+    }
+  })
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
