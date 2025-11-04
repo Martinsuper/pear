@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 // import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://martinsuper.github.io",
+  hostname: "https://pear.younote.top",
   author: {
     name: "mrtduan",
     url: "https://younote.top",
@@ -36,7 +36,7 @@ export default hopeTheme({
 
   logo: "/cherry.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -64,8 +64,8 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  pure: true, // 启用纯净模式
-  darkmode: "switch",
+  // pure: true, // 启用纯净模式
+  // darkmode: "switch",
 
   fullscreen: true,
   
@@ -79,9 +79,9 @@ export default hopeTheme({
   },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // metaLocales: {
+  //   editLink: "在 GitHub 上编辑此页",
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
